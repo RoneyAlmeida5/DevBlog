@@ -19,6 +19,7 @@ import Register from "./pages/Register.js/Register.js";
 import Login from "./pages/Login/Login.js";
 import CreatePost from "./pages/CreatePost/CreatePost.js";
 import Dashboard from "./pages/Dashboard/Dashboard.js";
+import Search from "./pages/Search/Search.js";
 
 function App() {
 
@@ -46,10 +47,9 @@ function App() {
           <Navbar />
           <div className="container">
             <Routes>
-              <Route path="/"
-               element={<Home />} />
-              <Route path="/about" element={<About />} 
-              />
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />}/>
+              <Route path="/search" element={<Search />}/>
               <Route path="/login" 
               element={!user ? <Login /> : <Navigate to="/" />} 
               />
