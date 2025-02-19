@@ -20,24 +20,22 @@ import Login from "./pages/Login/Login.js";
 import CreatePost from "./pages/CreatePost/CreatePost.js";
 import Dashboard from "./pages/Dashboard/Dashboard.js";
 import Search from "./pages/Search/Search.js";
+import Post from "./pages/Post/Post.js";
 
 function App() {
+  const [user, setUser] = useState(undefined);
+  const { auth } = useAuthentication();
 
-  const [user, setUser] = useState(undefined)
-  const { auth } = useAuthentication()
-
-  const loadingUser = user === undefined
+  const loadingUser = user === undefined;
 
   useEffect(() => {
-
     onAuthStateChanged(auth, (user) => {
-      setUser(user)
-    })
-
-  }, [auth])
+      setUser(user);
+    });
+  }, [auth]);
 
   if (loadingUser) {
-    return <p>Carregando...</p>
+    return <p>Carregando...</p>;
   }
 
   return (
@@ -48,19 +46,24 @@ function App() {
           <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />}/>
-              <Route path="/search" element={<Search />}/>
-              <Route path="/login" 
-              element={!user ? <Login /> : <Navigate to="/" />} 
+              <Route path="/about" element={<About />} />
+              <Route path="/search" element={<Search />} />
+              <Route path="/posts/:id" element={<Post />} />
+              <Route
+                path="/login"
+                element={!user ? <Login /> : <Navigate to="/" />}
               />
-              <Route path="/register" 
-              element={!user ? <Register /> : <Navigate to="/" />} 
+              <Route
+                path="/register"
+                element={!user ? <Register /> : <Navigate to="/" />}
               />
-              <Route path="/posts/create" 
-              element={user ? <CreatePost /> : <Navigate to="/login" />} 
+              <Route
+                path="/posts/create"
+                element={user ? <CreatePost /> : <Navigate to="/login" />}
               />
-              <Route path="/dashboard" 
-              element={user ? <Dashboard /> : <Navigate to="/login" />} 
+              <Route
+                path="/dashboard"
+                element={user ? <Dashboard /> : <Navigate to="/login" />}
               />
             </Routes>
           </div>
