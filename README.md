@@ -14,6 +14,8 @@ habilidades e compartilhar conhecimento.
 
 <br>
 
+![Imagem1](/blog/public/pag1.png)
+
 <p align-items="center">
   <img alt="Img projeto1" src="../blog/public/pag1.png" width="100%">
 </p>
