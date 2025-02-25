@@ -14,10 +14,10 @@ habilidades e compartilhar conhecimento.
 
 <br>
 
-![Imagem1](/blog/public/pag1.png)
+![Imagem1](/pag1.png)
 
 <p align-items="center">
-  <img alt="Img projeto1" src="../blog/public/pag1.png" width="100%">
+  <img alt="Img projeto1" src="/pag1.png" width="100%">
 </p>
 <p align-items="center">
   <img alt="Img projeto2" src="../blog/public/pag2.png" width="100%">
