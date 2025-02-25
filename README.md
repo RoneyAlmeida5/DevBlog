@@ -14,19 +14,17 @@ habilidades e compartilhar conhecimento.
 
 <br>
 
-![Imagem1](/pag1.png)
-
 <p align-items="center">
   <img alt="Img projeto1" src="./public/pag1.png" width="100%">
 </p>
 <p align-items="center">
-  <img alt="Img projeto2" src="../blog/public/pag2.png" width="100%">
+  <img alt="Img projeto2" src="./public/pag2.png" width="100%">
 </p>
 <p align-items="center">
-  <img alt="Img projeto3" src="../blog/public/pag3.png" width="100%">
+  <img alt="Img projeto3" src="./public/pag3.png" width="100%">
 </p>
 <p align-items="center">
-  <img alt="Img projeto4" src="../blog/public/pag4.png" width="100%">
+  <img alt="Img projeto4" src="./public/pag4.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
