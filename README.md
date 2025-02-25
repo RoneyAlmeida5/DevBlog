@@ -1,11 +1,11 @@
-<h1 align-items="center"> DevBlog Pessoal </h1>
+<h1 align="center"> DevBlog Pessoal </h1>
 
-<p align-items="center">
+<p align="center">
 Apresento um blog simples e intuitivo, desenvolvido para aprimorar minhas 
 habilidades e compartilhar conhecimento.
 </p>
 
-<p align-items="center">
+<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,16 +14,16 @@ habilidades e compartilhar conhecimento.
 
 <br>
 
-<p align-items="center">
+<p align="center">
   <img alt="Img projeto1" src="./public/pag1.png" width="100%">
 </p>
-<p align-items="center">
+<p align="center">
   <img alt="Img projeto2" src="./public/pag2.png" width="100%">
 </p>
-<p align-items="center">
+<p align="center">
   <img alt="Img projeto3" src="./public/pag3.png" width="100%">
 </p>
-<p align-items="center">
+<p align="center">
   <img alt="Img projeto4" src="./public/pag4.png" width="100%">
 </p>
 
