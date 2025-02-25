@@ -15,16 +15,16 @@ habilidades e compartilhar conhecimento.
 <br>
 
 <p align-items="center">
-  <img alt="Img projeto" src="../blog/public/pag1.jpeg" width="100%">
+  <img alt="Img projeto1" src="../blog/public/pag1.png" width="100%">
 </p>
 <p align-items="center">
-  <img alt="Img projeto" src="../blog/public/pag2.jpeg" width="100%">
+  <img alt="Img projeto2" src="../blog/public/pag2.png" width="100%">
 </p>
 <p align-items="center">
-  <img alt="Img projeto" src="../blog/public/pag3.jpeg" width="100%">
+  <img alt="Img projeto3" src="../blog/public/pag3.png" width="100%">
 </p>
 <p align-items="center">
-  <img alt="Img projeto" src="../blog/public/pag4.jpeg" width="100%">
+  <img alt="Img projeto4" src="../blog/public/pag4.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
